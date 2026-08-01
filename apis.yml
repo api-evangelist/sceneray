@@ -1,7 +1,18 @@
 aid: sceneray
-name: sceneray
-description: sceneray is a company surfaced as a portfolio company of qiming and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+name: SceneRay
+description: >-
+  SceneRay Medical Technology (Suzhou) Co., Ltd. is a Chinese medical-device and
+  brain-computer-interface company founded in 2011 and headquartered in the Suzhou
+  Industrial Park. It designs and manufactures implantable neuromodulation systems,
+  focusing on Deep Brain Stimulation (DBS) devices and "brain-machine control chip"
+  technology used to treat Parkinson's disease, movement disorders, epilepsy, and
+  treatment-resistant psychiatric conditions. Its product line spans implantable
+  pulse generators, programmable external controllers, and clinician programming
+  systems. SceneRay reports over 100 international patents and 700+ total patent
+  applications, with devices used across 18+ countries. It was surfaced in the API
+  Evangelist network as a portfolio company of the venture firm Qiming. As a medical
+  hardware manufacturer, SceneRay publishes no public developer portal, API, SDK, or
+  other machine-readable technical surface at the time of this enrichment pass.
 url: https://raw.githubusercontent.com/api-evangelist/sceneray/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,17 +20,51 @@ x-backed-by:
 - qiming
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Medical Devices
+- Neuromodulation
+- Deep Brain Stimulation
+- Brain-Computer Interface
+- Health
+- Medical Technology
+- China
+image: https://www.sceneray.com/favicon.ico
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 common:
 - type: Website
-  url: https://sceneray.com
+  url: https://www.sceneray.com
+- type: About
+  url: https://www.sceneray.com/about/
+- type: Products
+  url: https://www.sceneray.com/cpzx/
+- type: Blog
+  url: https://www.sceneray.com/news/
+- type: PrivacyPolicy
+  url: https://www.sceneray.com/yssm/
+- type: DomainSecurity
+  url: security/sceneray-domain-security.yml

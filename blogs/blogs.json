@@ -1,0 +1,14 @@
+{
+  "repo": "sceneray",
+  "feeds": [
+    {
+      "source": "https://www.sceneray.com/cpzx/",
+      "feed_url": "https://www.sceneray.com/cpzx/rss/",
+      "title": "",
+      "saved": 24,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 24,
+  "fetched": "2026-07-25T15:00:33Z"
+}
